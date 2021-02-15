@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "CranberryBlues";
+    src: url("../assets/fonts/CranberryBlues.ttf");
+}
+
+h1 {
+    font-family: "CranberryBlues";
+    color: black;
+    border: 2px solid pink;
+    background-color: white(81, 255, 0);
+    width: auto;
+}
+
+#myCanvas {
+    border:1px solid black;
+    width: auto;
+    background: url("../assets/images/im.jpg");
+}
+body{
+    background-image: url('../assets/images/rose.jpg');
+   
+}
+
+
+#infosJeu {
+     font-family: "CranberryBlues";
+     color:rgb(0, 0, 0);
+     font-size:20px;
+    position:absolute;
+    left:200px;
+    top:580px;
+    user-select: none;
+}
